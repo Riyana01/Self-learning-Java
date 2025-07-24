@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class Comm {
+    public static void main(String[] args) {
+        Scanner nms = new Scanner(System.in);
+        int age = nms.nextInt();
+        System.out.print("My age" + " " + age);
+        nms.nextLine();
+
+        String name = nms.nextLine();
+
+        System.out.print(" My name" + " " + name);
+    }
+
+}
