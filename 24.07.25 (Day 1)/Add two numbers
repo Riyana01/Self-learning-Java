@@ -1,0 +1,10 @@
+import java.util.Scanner;
+
+public class Comm {
+    public static void main(String[] args) {
+        Scanner nms = new Scanner(System.in);  
+        int no1 = nms.nextInt();               
+        int no2 = nms.nextInt();               
+        System.out.print("Sum" + (no1 + no2)); 
+    }
+}
