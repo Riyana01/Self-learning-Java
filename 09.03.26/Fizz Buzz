@@ -1,0 +1,26 @@
+import java.util.*;
+
+class Solution {
+    public List<String> fizzBuzz(int n) {
+        List<String> result = new ArrayList<>();
+        
+        for (int i = 1; i <= n; i++) {
+            String value;
+            
+            if (i % 15 == 0) {
+                value = "FizzBuzz";
+            } else if (i % 3 == 0) {
+                value = "Fizz";
+            } else if (i % 5 == 0) {
+                value = "Buzz";
+            } else {
+                value = String.valueOf(i);
+            }
+            
+            System.out.println(value);   
+            result.add(value);           
+        }
+        
+        return result;
+    }
+}
